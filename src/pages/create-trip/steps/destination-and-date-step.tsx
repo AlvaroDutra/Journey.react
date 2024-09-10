@@ -29,7 +29,7 @@ export function DestinationAndDateStep({closeGuestsInput, isGuestsInputOpen, ope
                 <Settings2 className='size-5'/>
               </button>
             ):(
-              <button onClick={openGuestsInput} className="bg-emerald-400 text-emerald-950 rounded-lg px-5 py-2 font-medium flex items-center gap-2 hover:bg-emerald-500">
+            <button onClick={openGuestsInput} className="bg-emerald-400 text-emerald-950 rounded-lg px-5 py-2 font-medium flex items-center gap-2 hover:bg-emerald-500">
               Continuar
               <ArrowRight className='size-5 '/>
             </button>
