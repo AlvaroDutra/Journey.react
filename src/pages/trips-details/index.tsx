@@ -5,6 +5,7 @@ import { ImportantLinks } from "./important-links";
 import { GuestList } from "./guest-list";
 import { Activities } from "./activity-list";
 import { Header } from "./destinantion-and-date-header";
+import { Button } from "../../components/button";
 
 export function TripsDetails(){
     const [isCreateActivityModalOpen, setIsCreateActivityModalOpen] = useState(false)
@@ -27,10 +28,11 @@ export function TripsDetails(){
                     <div className="flex items-center justify-between">
                         <h2 className="text-3xl font-semibold">Atividades</h2>
 
-                        <button onClick={openCreateActivityModal} className="bg-emerald-400 text-emerald-950 rounded-lg px-5 py-2 font-medium flex items-center gap-2 hover:bg-emerald-500">
+                        <Button variant="primary" onClick={openCreateActivityModal}>
                             <Plus className='size-5 '/>
                             Cadastrar viagem
-                        </button>
+                        </Button>
+                        
                     </div>
                     <Activities/>
                 </div>
