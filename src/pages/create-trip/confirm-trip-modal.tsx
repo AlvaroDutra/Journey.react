@@ -25,12 +25,12 @@ export function ConfirmTripModal({closeConfirmTripModal, createTrip}: ConfirmTri
               </div>
               
                 <form onSubmit={createTrip} className="space-y-3">
-                  <div className='h-14 px-4 bg-zinc-950 border border-l-zinc-800 rounded-lg flex items-center gap-2'>
+                  <div className='h-14 px-4 bg-zinc-950 border border-zinc-800 rounded-lg flex items-center gap-2'>
                     <User className='text-zinc-400 size-5'/>
                     <input name='name' placeholder="Seu nome completo" className="bg-transparent text-lg placeholder-zinc-400 outline-none flex-1" />
                   </div>
                   
-                  <div className='h-14 px-4 bg-zinc-950 border border-l-zinc-800 rounded-lg flex items-center gap-2'>
+                  <div className='h-14 px-4 bg-zinc-950 border border-zinc-800 rounded-lg flex items-center gap-2'>
                     <User className='text-zinc-400 size-5'/>
                     <input type="email" name='email' placeholder="Seu e-mail pessoal" className="bg-transparent text-lg placeholder-zinc-400 outline-none flex-1" />
                   </div>
